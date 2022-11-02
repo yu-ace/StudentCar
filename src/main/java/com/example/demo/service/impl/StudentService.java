@@ -16,7 +16,7 @@ public class StudentService implements IStudentService {
         return studentService;
     }
 
-    private List<Student> studentList = new ArrayList<>();
+    private static List<Student> studentList = new ArrayList<>();
 
     @Override
     public Student newStudent(int id,String name) {
